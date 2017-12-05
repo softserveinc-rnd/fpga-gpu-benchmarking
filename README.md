@@ -52,7 +52,7 @@ As FPGA instance we used f1.2xlarge as the comparable instance type to GPU p2. F
 
 FPGA performance, Images / USD. Some results are missing due to not enough memory.
 
-<img src="img/fpga-table.png">
+<img src="img/fpga-perf-table.png">
 
 
 As GPU instance we used p2.xlarge (most recent GPU hardware family available on AWS), based on NVidia Tesla K80, $0.9 per Hour. Tesla K80 is based on 28nm process, has 4992 NVIDIA CUDA cores with a dual-GPU design, 24 GB of GDDR5 memory operating at 5GHz and 480 GB/s aggregate memory bandwidth, total transistor count is around 14B and consuming peak 300W.
@@ -61,7 +61,7 @@ As GPU instance we used p2.xlarge (most recent GPU hardware family available on 
 
 GPU performance, Thousands of Images / USD. Some results are missing due to not enough memory.
 
-<img src="img/gpu-table.png">
+<img src="img/gpu-perf-table.png">
 
 GPU wins for performance per dollar in most cases. In absolute numbers, FPGA (Xilinx VU9 on AWS) are slower than GPU (Tesla K80) on batch sizes 1-64, and faster on batch size 64-256.
 
