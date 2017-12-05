@@ -12,12 +12,15 @@ Artificial Intelligence (AI) is growing. AI is becoming new programing paradigm.
 
 ## Hardware Accelerators
 While GPU acceleration (lead by NVidia) is de-facto standard in today’s mainstream deep learning, other acceleration technologies emerge.
+
 <img src="http://images.nvidia.com/pascal/img/titanx/titanx-design.png" width="50%" align="middle">
+
 Titan X, Most popular GPU used for Deep Learning today. Source: nvidia.com
 
 In mid-2016 Google [announced TPU](https://cloudplatform.googleblog.com/2016/05/Google-supercharges-machine-learning-tasks-with-custom-chip.html), custom ASIC designed for machine learning, claiming over 90 TOPS of INT8 on 75W chip, which is 15x inference performance and 29x performance/watt over K80 (comparable chip model from NVidia at that time). Second generation of TPU can provide 180 TFLOPS on 4-chip board.
 
 <img src="https://cloud.google.com/images/products/tpu/accelerated-machine.png" width="50%" align="middle">
+
 Google Second-gen TPU. Source: cloud.google.com
 
 
