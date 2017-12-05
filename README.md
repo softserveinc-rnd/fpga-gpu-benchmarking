@@ -9,4 +9,5 @@ Artificial Intelligence (AI) is growing. AI is becoming new programing paradigm.
 
 Hardware Accelerators
 While GPU acceleration (lead by NVidia) is de-facto standard in today’s mainstream deep learning, other acceleration technologies emerge.
-(http://images.nvidia.com/pascal/img/titanx/titanx-design.png "Titan X, Most popular GPU used for Deep Learning today. Source: nvidia.com")
+![Titan X](http://images.nvidia.com/pascal/img/titanx/titanx-design.png "Titan X")
+"Titan X, Most popular GPU used for Deep Learning today. Source: nvidia.com"
