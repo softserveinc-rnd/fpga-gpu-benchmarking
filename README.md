@@ -18,16 +18,25 @@ Titan X, Most popular GPU used for Deep Learning today. Source: nvidia.com
 In mid-2016 Google [announced TPU](https://cloudplatform.googleblog.com/2016/05/Google-supercharges-machine-learning-tasks-with-custom-chip.html), custom ASIC designed for machine learning, claiming over 90 TOPS of INT8 on 75W chip, which is 15x inference performance and 29x performance/watt over K80 (comparable chip model from NVidia at that time). Second generation of TPU can provide 180 TFLOPS on 4-chip board.
 
 ![Google TPU](https://cloud.google.com/images/products/tpu/accelerated-machine.png)
+
+Google Second-gen TPU. Source: cloud.google.com
+
+
+
+<img src="https://cloud.google.com/images/products/tpu/accelerated-machine.png" width="100%">
+
 Google Second-gen TPU. Source: cloud.google.com
 
 Intel, leader (>99%) in server computing power also entered the game of ML acceleration, first with [Intel Arria](https://www.altera.com/products/boards_and_kits/dev-kits/altera/acceleration-card-arria-10-gx.html), FPGA co-processor, and then with Intel® Xeon® Processor with integrated FPGA. 
 
 ![Intel Arria 10](https://www.altera.com.cn/content/dam/altera-www/global/en_US/images/products/devkits/altera/images/arria10_fpga_kit.jpg)
+
 Intel Arria 10 GX FPGA Development Kit. Source: altera.com
 
 Xilinx, the market leader in FPGA, in 2017 became available to consumers also through Amazon cloud, as f1 instance.
 
 ![XUPP3R PCIe board](https://xlnx.i.lithium.com/t5/image/serverpage/image-id/28855i0F079A5BD6C6C786?v=1.0)
+
 XUPP3R PCIe board based on a Xilinx Virtex UltraScale+ XCVU9P FPGA.  Source: forums.xilinx.com
 
 Today, few dozens of startups are building custom chips for hardware AI acceleration, such as Graphcore, Mythic, Intel Nervana.
@@ -43,4 +52,5 @@ For the benchmark, unmodified DNN and Caffe were used (based on float64). It is 
 As FPGA instance we used f1.2xlarge as the comparable instance type to GPU p2. F1 instance is based on Xilinx UltraScale+ VU9 on AWS, cost is $1.65 per Hour. Xilinx UltraScale+ VU9 is based on 16nm process, with local 64 GiB DDR4 ECC protected memory, with a dedicated PCI-e x16 connection to the instance.  Each FPGA contains approximately 2.5 million logic elements and approximately 6,800 Digital Signal Processing (DSP) engines.  
 
 ![FPGA performance](img/fpga-img-usd.png)
+
 FPGA performance, Images / USD. Some results are missing due to not enough memory.
