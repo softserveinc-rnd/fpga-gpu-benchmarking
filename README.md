@@ -70,3 +70,5 @@ GPU wins for performance per dollar in most cases. In absolute numbers, FPGA (Xi
 Comparative performance, Images / USD, batch = 64
 
 The given experiment is the first step to understand performance of hardware AI accelerators on some typical ML tasks. We plan to measure performance per watt (per volume, per mass) with real Xilinx and Altera FPGA chips as soon as they arrive. Stay tuned for updates from our R&D lab.
+
+Author: Oleksandr Sukholeyster
