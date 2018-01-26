@@ -22,8 +22,8 @@ OpenCL is used on both platforms for kernel implementation and same code compile
 
 | Hardware  | Device                    | Total time, sec  | Power Consumption, Watt | Tx / Watt |
 | --------- | ------------------------- | ----------------:| ----------------------: | ---------:|
-| FPGA      | Xilinx UltraScale+™ VU9P  |              5.6 |                     300 |       600 |
-| GPU       | NVIDIA® Tesla® K80        |              3.9 |          40 (estimated) |      6400 |
+| FPGA      | Xilinx UltraScale+™ VU9P  |              5.6 |          40 (estimated) |      4460 |
+| GPU       | NVIDIA® Tesla® K80        |              3.9 |                     300 |      850  |
 
 # edge detection
 
@@ -31,11 +31,11 @@ Edge detection sobel algprothm (https://en.wikipedia.org/wiki/Sobel_operator) wa
 
 | Hardware  | Device                    | Total time, sec    | Power Consumption, Watt | Tx / Watt |
 | --------- | ------------------------- | ------------------:| ----------------------: | ---------:|
-| FPGA      | Xilinx UltraScale+™ VU9P  |              0.330 |                     300 |        10 |
-| GPU       | NVIDIA® Tesla® K80        |              0.320 |          40 (estimated) |        78 |
+| FPGA      | Xilinx UltraScale+™ VU9P  |              0.330 |          40 (estimated) |        75 |
+| GPU       | NVIDIA® Tesla® K80        |              0.320 |                     300 |        10 |
 
 # Conclusion
 
-GPU slightly outperform FPGA in absolute speed but FPGA is 7x ~ 10x better than GPU in transactions / watt.
+GPU slightly outperform FPGA in absolute speed but FPGA is 5x ~ 7x better than GPU in transactions / watt.
 
 Author: Oleksandr Sukholeyster
