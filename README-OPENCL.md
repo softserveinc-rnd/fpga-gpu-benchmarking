@@ -29,7 +29,7 @@ OpenCL is used on both platforms for kernel implementation and same code compile
 
 # edge detection
 
-Edge detection sobel [alogirithm](https://en.wikipedia.org/wiki/Sobel_operator) was tested on 1024x1024 images. For this task, GPU implementation is CUDA-based. Execition time was measured to process 1,000 images
+Edge detection sobel [algorithm](https://en.wikipedia.org/wiki/Sobel_operator) was tested on 1024x1024 images. For this task, GPU implementation is CUDA-based. Execition time was measured to process 1,000 images
 
 | Hardware  | Device                    | Total time, sec    | Power Consumption, Watt | Tx / Watt |
 | --------- | ------------------------- | ------------------:| ----------------------: | ---------:|
