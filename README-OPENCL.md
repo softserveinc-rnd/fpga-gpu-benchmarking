@@ -1,5 +1,7 @@
 # OpenCL Performance on FPGA and GPU
 
+The given article is continuation of our [FPGA research](README.md).
+
 There are common programing models for FPGA. The traditional way, also called RTL-design, requires implementation of algorithms in LDH language such as Verilog or VHDL. Another approach is to use higher level language such as OpenCL to implement accelerated function (kernel), and compile it to target hardware (CPU, GPU, or FPGA). OpenCL allows the use of a C-based programming language for developing code across different platforms. OpenCL is a portable, open, royalty-free standard.
 
 OpenCL is currently supported by GPU (NVidia, AMD) and FPGA (Altera, Xilinx) vendors. In particular, Xilinx supports OpenCL development via SDAccel™ development environment, which is also supported in AWS cloud.
@@ -36,6 +38,6 @@ Edge detection sobel algprothm (https://en.wikipedia.org/wiki/Sobel_operator) wa
 
 # Conclusion
 
-GPU slightly outperform FPGA in absolute speed but FPGA is 5x ~ 7x better than GPU in transactions / watt.
+In the given experiment GPU slightly outperforms FPGA in absolute speed but FPGA is 5x ~ 7x better than GPU in transactions / watt.
 
 Author: Oleksandr Sukholeyster
