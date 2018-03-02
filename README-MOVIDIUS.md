@@ -76,11 +76,28 @@ Author: Andriy Bench
 ## Appendix. Detailed results of performance measuring.
 
 
-| Network    | Overall process           | Image loading    | Image processing        | 
-| --------- -| ------------------------- | -----------------| ------------------------| 
-| AlexNet    | ![AlexNet overall](img/movidius-alexnet-overal-process.png) | ![AlexNet image loading](img/movidius-alexnet-image-loading.png) | ![AlexNet image processing](img/movidius-alexnet-image-processing.png) |
-| GoogLeNet  | ![GoogLeNet overall](img/movidius-googlenet-overal-process.png) | ![GoogLeNet image loading](img/movidius-googlenet-image-loading.png) | ![GoogLeNet image processing](img/movidius-googlenet-image-processing.png) |
-| SqueezeNet | ![SqueezeNet overall](img/movidius-squeezenet-overal-process.png) | ![SqueezeNet image loading](img/movidius-squeezenet-image-loading.png) | ![SqueezeNet image processing](img/movidius-squeezenet-image-processing.png) |   
+| Metric          | AlexNet results |
+| --------------- | --------------- |
+|Overall process  | ![AlexNet overall](img/movidius-alexnet-overal-process.png) | 
+|Image loading    | ![AlexNet image loading](img/movidius-alexnet-image-loading.png) |
+|Image processing | ![AlexNet image processing](img/movidius-alexnet-image-processing.png) |
+
+   
+
+| Metric          | GoogLeNet results |
+| --------------- | ----------------- |
+|Overall process  | ![GoogLeNet overall](img/movidius-googlenet-overal-process.png)  | 
+|Image loading    | ![GoogLeNet image loading](img/movidius-googlenet-image-loading.png) |
+|Image processing | ![GoogLeNet image processing](img/movidius-googlenet-image-processing.png) |
+
+   
+
+| Metric          | SqueezeNet results |
+| --------------- | ------------------ |
+|Overall process  | ![SqueezeNet overall](img/movidius-squeezenet-overal-process.png) | 
+|Image loading    | ![SqueezeNet image loading](img/movidius-squeezenet-image-loading.png)  |
+|Image processing | ![SqueezeNet image processing](img/movidius-squeezenet-image-processing.png) |
+
 
 
 
