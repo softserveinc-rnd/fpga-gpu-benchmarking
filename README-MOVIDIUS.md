@@ -11,7 +11,7 @@ It can plug into any device that has a USB port to roll out machine learning fea
 
 ![Movidius, FPGA, GPU](img/movidius-GPU-FPGA.png)
 
-The Chip itself contain 12 VLIW "SHAVE" processors (SHAVE - Streaming Hybrid Architecture Vector Engine) and
+The Chip itself contains 12 VLIW "SHAVE" processors (SHAVE - Streaming Hybrid Architecture Vector Engine) and
 has an USB interface for communication with the host. Neural Computing Stick SDK includes tools to compile Caffe and TensorFlow network descriptions into blob objects 
 and communication API (Python, C++), allowing to load it to Movidius stick as well as writing/reading the input/output data.
 
