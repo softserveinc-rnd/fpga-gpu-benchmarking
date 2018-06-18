@@ -2,7 +2,7 @@
 
 ## Executive summary
 
-The mission of the given research is to continue our [FPGA](README.md) and Movidius [Movidius](README-MOVIDIUS.md) performance investigation. 
+The mission of the given research is to continue our [FPGA](README.md) and [Movidius](README-MOVIDIUS.md) performance investigation. 
 This year Google gave a commercial access to its Tensor Processing Unit (TPU) and we decided to make similar performance experiments on it. 
 
 Our experiments showed that TPU was 5-40 times faster than CPU, 
